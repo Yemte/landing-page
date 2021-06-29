@@ -1,8 +1,11 @@
 # Landing Page Project
 This project is part of  udacity's front-end develoment nano degree program. It is one of the projects given that was requiered to pass.The project requires to build a multi-section landing page, with a dynamically updating navigational menu based on the amount of content that is added to the page.
 ## Instructions
-
 The starter project had some HTML and CSS styling to display a static version of the Landing Page project. I  needED to convert this project from a static project to an interactive one. That required modifying the HTML and CSS files, but primarily the JavaScript file.
+Manipulating the DOM .
+ * programmatically builds navigation,
+ * scrolls to anchors from navigation,
+ * and highlights section in viewport upon scrolling.
 
 ## Rubric
 The project is  evaluated by a Udacity code reviewer according to the Landing Page project rubric specifications as below. 
