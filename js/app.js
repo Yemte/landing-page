@@ -34,12 +34,15 @@ function activeSection (){
     for(let x =0; x<sections.length;x++){
         //This method Returns the size of a section and its position relative to the viewport.
         if(sections[x].getBoundingClientRect().top < 0||(sections[x].getBoundingClientRect().top>window.innerHeight)){
+            if( sections[x].classList.contains('your-active-class'))
+            sections[x].classList.remove('your-active-class');
             
-                sections[x].classList.add('your-active-class');
-            
-        }else{sections[x].classList.remove('your-active-class');}                
+        } 
+        else{sections[x].classList.add('your-active-class');}
+        
         
    }
+
    })
     
 }
